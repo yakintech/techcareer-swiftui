@@ -19,6 +19,10 @@
 		1D34D04F2C613667006BA717 /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D34D04E2C613667006BA717 /* CategoryList.swift */; };
 		1D34D0512C613DFE006BA717 /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D34D0502C613DFE006BA717 /* ToDoList.swift */; };
 		1D34D0532C6140E6006BA717 /* AddCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D34D0522C6140E6006BA717 /* AddCategory.swift */; };
+		1D34D0562C63CA29006BA717 /* StorageCounterSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D34D0552C63CA29006BA717 /* StorageCounterSample.swift */; };
+		1D34D0592C63CC01006BA717 /* MetalBands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D34D0582C63CC01006BA717 /* MetalBands.swift */; };
+		1D34D05B2C63CD05006BA717 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D34D05A2C63CD05006BA717 /* Detail.swift */; };
+		1D34D05E2C63D07C006BA717 /* SearchMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D34D05D2C63D07C006BA717 /* SearchMovie.swift */; };
 		1D69D3DD2C5A8AFD008166B0 /* StateArraySample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D69D3DC2C5A8AFD008166B0 /* StateArraySample2.swift */; };
 		1D69D3DF2C5A90CA008166B0 /* CelciusSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D69D3DE2C5A90C9008166B0 /* CelciusSample.swift */; };
 		1DC96B6F2C4EC44600B91FCC /* SwiftUITutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC96B6E2C4EC44600B91FCC /* SwiftUITutorialApp.swift */; };
@@ -38,6 +42,10 @@
 		1D34D04E2C613667006BA717 /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
 		1D34D0502C613DFE006BA717 /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
 		1D34D0522C6140E6006BA717 /* AddCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategory.swift; sourceTree = "<group>"; };
+		1D34D0552C63CA29006BA717 /* StorageCounterSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageCounterSample.swift; sourceTree = "<group>"; };
+		1D34D0582C63CC01006BA717 /* MetalBands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalBands.swift; sourceTree = "<group>"; };
+		1D34D05A2C63CD05006BA717 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		1D34D05D2C63D07C006BA717 /* SearchMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMovie.swift; sourceTree = "<group>"; };
 		1D69D3DC2C5A8AFD008166B0 /* StateArraySample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateArraySample2.swift; sourceTree = "<group>"; };
 		1D69D3DE2C5A90C9008166B0 /* CelciusSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelciusSample.swift; sourceTree = "<group>"; };
 		1DC96B6B2C4EC44600B91FCC /* SwiftUITutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +101,31 @@
 			path = AlamofireSample;
 			sourceTree = "<group>";
 		};
+		1D34D0542C63C9D7006BA717 /* StorageSample */ = {
+			isa = PBXGroup;
+			children = (
+				1D34D0552C63CA29006BA717 /* StorageCounterSample.swift */,
+			);
+			path = StorageSample;
+			sourceTree = "<group>";
+		};
+		1D34D0572C63CBD6006BA717 /* NavigationIntro */ = {
+			isa = PBXGroup;
+			children = (
+				1D34D0582C63CC01006BA717 /* MetalBands.swift */,
+				1D34D05A2C63CD05006BA717 /* Detail.swift */,
+			);
+			path = NavigationIntro;
+			sourceTree = "<group>";
+		};
+		1D34D05C2C63CEFA006BA717 /* Mix */ = {
+			isa = PBXGroup;
+			children = (
+				1D34D05D2C63D07C006BA717 /* SearchMovie.swift */,
+			);
+			path = Mix;
+			sourceTree = "<group>";
+		};
 		1DC96B622C4EC44600B91FCC = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +145,9 @@
 		1DC96B6D2C4EC44600B91FCC /* SwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
+				1D34D05C2C63CEFA006BA717 /* Mix */,
+				1D34D0572C63CBD6006BA717 /* NavigationIntro */,
+				1D34D0542C63C9D7006BA717 /* StorageSample */,
 				1D34D04D2C61355A006BA717 /* AlamofireSample */,
 				1D06E1762C57F5A1006048D6 /* StateSample */,
 				1D06E1732C57F4EE006048D6 /* SwiftUIElements */,
@@ -210,13 +246,17 @@
 			files = (
 				1D34D0512C613DFE006BA717 /* ToDoList.swift in Sources */,
 				1D69D3DD2C5A8AFD008166B0 /* StateArraySample2.swift in Sources */,
+				1D34D05E2C63D07C006BA717 /* SearchMovie.swift in Sources */,
 				1DC96B712C4EC44600B91FCC /* ContentView.swift in Sources */,
+				1D34D05B2C63CD05006BA717 /* Detail.swift in Sources */,
 				1D06E17A2C57F6F4006048D6 /* CounterSample.swift in Sources */,
 				1D69D3DF2C5A90CA008166B0 /* CelciusSample.swift in Sources */,
 				1DC96B6F2C4EC44600B91FCC /* SwiftUITutorialApp.swift in Sources */,
 				1D06E1752C57F501006048D6 /* SwiftUIElements.swift in Sources */,
 				1D06E1782C57F5B5006048D6 /* OneWayBinding.swift in Sources */,
 				1D06E1822C5802F9006048D6 /* KDVCalc.swift in Sources */,
+				1D34D0592C63CC01006BA717 /* MetalBands.swift in Sources */,
+				1D34D0562C63CA29006BA717 /* StorageCounterSample.swift in Sources */,
 				1D06E17C2C57F883006048D6 /* ToogleSample.swift in Sources */,
 				1D06E17E2C57F9E8006048D6 /* StateArraySample.swift in Sources */,
 				1D34D0532C6140E6006BA717 /* AddCategory.swift in Sources */,
